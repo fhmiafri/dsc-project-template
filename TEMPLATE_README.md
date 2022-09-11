@@ -1,75 +1,99 @@
-# Title
+# MOVIE STUDIO ANALYSIS
 
-**Authors**: Student1, Student2
+**Authors**: Fahmi Afri
+
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+Microsoft’s new movie studio is exploring a new adventure in films industry . Prior to
+embarking into this new business venture, Microsoft is keen to be informed of the
+availability of market presence or the best genre for their first movie .
+
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+Microsoft's new movie studio is in the mood for a new fun to create their first ever movie . We collected several datasets from IMDB and BOM to be analysed to : Highest Rated Film Genres, Movie Genre to Movie Gross, Recommended Runtime and Highest Number Of Votes. With this, Microsoft can start narrow it down to what movie to create and focus more on the ideas of their masterpiece .
 
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
+
 
 ## Data
 
-Describe the data being used for this project.
+In the process of data gathering, reference is made to IMDB and BOM amongst
+other available resources.
+As per google search, IMDB is one of the best movie rating sites and has several
+dynamic Top Lists that we can use to find new movies and TV shows to watch whilst
+Box office Mojo(BOM) is measured in terms of the number of tickets sold or the
+amount of money raised by ticket sales (revenue). Both projection and analysis of
+these earnings/revenue is the measuring stick to determine the interest captured
+from the market, in this case the fans or moviegoers.
+
 
 ***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
+
 
 ## Methods
 
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
+This project uses descriptive  analysis, which consist of important datas to identify resource needs. The following tasks were performed:
+
+-Research from Box Office and IMDB.
+
+-Analysed the Gross income.
+
+-Type of highly rated genre and Ratings. 
+
+-Identified suitable running time.
+
+In order to read the datas , i merged all three datasets to give me a wider view with specific values i need .
+
+![ss1](https://user-images.githubusercontent.com/112393492/189527214-0b9b1f7f-2411-428b-b401-583b2eb3d993.png)
+
+
+
 
 ***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
+
 
 ## Results
+It is found that Documentary in general is the preferred option, whilst Drama and Comedy films come closer
+to the range:
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
+![ss2](https://user-images.githubusercontent.com/112393492/189527645-153f2b59-1e84-4d46-9657-0fef657d2800.png)
 
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
+Cont..
 
-Here is an example of how to embed images from your sub-folder:
+Without discounting the Action, Adventure and Sci-fi genre which appear to collect the highest number of
+domestic gross and number of votes. The below diagram displays the result:
 
-### Visual 1
-![graph1](./images/viz1.png)
+![ss3](https://user-images.githubusercontent.com/112393492/189527682-8b2a8e3d-87f4-449c-b76f-6dee97b1c2b7.png)
+
+Cont..
+
+It was discovered that out of 35,000 movies that were published between 2015 - 2019, an average
+runtime for most movies is between 90 to 110 minutes.
+
+![ss4](https://user-images.githubusercontent.com/112393492/189527694-931ed478-7afc-484c-b27d-afedaafc5c29.png)
+
 
 ## Conclusions
 
-Provide your conclusions about the work you've done, including any limitations or next steps.
+● Documentary claims its first score. Being the most rated genre, you can never put your foot wrong in
+this.
 
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
+● Action, Adventure, Sci-fi collected the most domestic gross with the highest number of votes.
+
+● Average running time for each movie is at 86-min. 
+
+However, based on the graph displayed, most movies’ running time is between 90-110 mins .
+To sum up, although Documentary reigns the most preferred option, I personally recommend Action,
+Adventure and Sci-fi movie genre (superhero, comic characters) based upon the significant votes received
+from the market. 
 ***
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in my jupyter notebook and presentations as below.
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact me.
 
 ## Repository Structure
 
